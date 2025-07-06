@@ -1,0 +1,284 @@
+
+*{
+    scroll-behavior: smooth;
+    transition: all 0.5s ease-in-out;
+}
+body{
+    font-family: "Roboto", sans-serif;;
+}
+.h{
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0080ff;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+}
+.img-h{
+    width: 150px;
+    padding: 20px;
+    margin: 0px 300px 0px 100px;
+    
+}
+.hhome ,.hOur ,.hPro, .hCon{
+    color: #ffffff;
+    padding: 10px 10px;
+    margin: 10px;
+    background-color: #0080ff;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.h a:hover {
+    background-color: #0073e6;
+}
+.Sign-in-h{
+    background-color: #ff0000;
+    margin-right: 100px;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.Sign-in-h:hover{
+    background-color: #b30000 !important; 
+}
+.l{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background-color:#0080ff;
+    padding: 20px 50px;
+}
+.imlr{
+    border-radius: 20px;
+}
+.ll{
+    width: 600px;
+}
+.Welcome{
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+.title{
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.lorem{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.textl{
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px 15px;
+    border-style: none;
+}
+.subl{
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #ff0000;
+    margin: -50px;
+    padding: 15px;
+    height: 62px;
+    align-items: center;
+}
+.subl:hover{
+    background-color: #b30000;
+}
+.input{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.trh{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+.trh-title-a{
+    color: #ff0000;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.trh-title-b{
+    font-size: 30px;
+    font-weight: 800;
+}
+.trh-button{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #ff0000;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+.trh-button:hover{
+    background-color: #b30000;
+}
+.trs{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.imgtrs{
+    border-radius: 20px 20px 0px 0px ;
+    width: 250px;
+    margin: 10px 20px -5px;
+}
+.trsste{
+    background-color: #aaa;
+    display: flex;
+    width: 220px;
+    margin: 0px 20px 50px;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+}
+.trste{
+    display: flex;
+    flex-direction: column;
+}
+.icon{
+    width: 50px;
+}
+.icon:hover{
+    width: 60px;
+}
+.trsact{
+    color: #777;
+}
+.trsgame{
+    font-weight: 700;
+}
+.toh{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+.toh-title-a{
+    color: #ff0000;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.toh-title-b{
+    font-size: 30px;
+    font-weight: 800;
+}
+.toh-button{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #ff0000;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+.toh-button:hover{
+    background-color: #b30000;
+}
+.to{
+    display: flex;
+    background-color: #ccc;
+    flex-direction: column;
+    border-radius: 30px;
+}
+.tos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    padding: 20px;
+}
+.imgtos{
+    border-radius: 20px 20px 0px 0px ;
+    width: 150px;
+    margin: 10px 20px -5px;
+    
+}
+.toste{
+    margin: 0px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.exp-button{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #ff0000;
+    padding: 10px 15px;
+    border-radius: 20px;
+    
+}
+.exp-button:hover{
+    background-color: #b30000;
+}
+.tosact{
+    color: #777;
+    margin: 20px 0px 15px 0px;
+}
+.tosgame{
+    font-weight: 700;
+    font-size: 15px;
+    margin: 20px 0px;
+}
+.f{
+    margin: 300px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #0080ff;
+    border-radius: 50px 50px 0px 0px;
+    height: 200px;
+    font-size: x-large;
+    font-weight: 600;
+}
+.u{
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 20px;
+}
+.u:hover{
+    background-color: #333;
+}
+section:hover{
+    box-shadow: 3px 3px 20px 3px black ;
+}
+.tt{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+    padding: 50px;
+    margin: 50px 0px;
+    border-radius: 20px;
+}
+.tin{
+    width: 300px;
+    height: 40px;
+    margin: 15px 15px 15px 0px
+}
+label{
+    color: #ffffff;
+    background-color: #000;
+    padding: 15px;
+}
